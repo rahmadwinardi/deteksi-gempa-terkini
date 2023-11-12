@@ -38,6 +38,7 @@ def ekstaksi_data():
         for res in result:
             print(i, res)
             if i == 1:
+
                 magnitudo = res.text
             elif i == 2:
                 kedalaman = res.text
